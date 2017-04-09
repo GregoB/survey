@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML forms </title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <h1>Profile Information</h1>
+       <form method="get" action="html_forms.html">
+           <fieldset>
+               <legend>Contact information</legend>
+       <label for="first_name"> first name:</label> <br> 
+               
+               <input id="first_name" type=text name=first_name><br> <br>
+             <label for="last_name">Last name:</label> <br>
+               <input id="last_name" type=text name=last_name><br>
+            pasword:<br>
+               <input type=pasword id=pwd name=userpasword><br>
+           email adress:<br>
+               <input type=email id=emailadress name=emailadress><br>
+         </fieldset>
+               
+            <!--Selections--> 
+        
+           Ocupation:
+           <select id="ocupation" name="ocupation">
+                   <optgroup label=tehnical>      
+        <option label="Developer" value="dev"> </option>
+        <option label="Designe" value="designe"> </option>
+        <option label="driver" value="driver"> </option>
+               </optgroup>  
+           <optgroup label=other>
+               <option label="manager" value="mgr"> </option>
+        <option label="consultant" value="consultant"> </option>
+        <option label="it" value="it"> </option>
+        <option label="music" value="music"> </option>
+               </optgroup>
+           </select>
+           
+    <br>
+      Gender:
+           <label><input type="radio" id="male" name="gender"  value="male"checked> Male </label>
+           </input>   
+       <label><input type="radio" id="female" name="gender"  value="female"> Female </label> 
+        </input>   
+           <br>
+           Preference:
+    <input type="checkbox" id="pref1" name="prefs" value="newsletter">Send me a newsletter</input><br>
+<input type="checkbox" id="pref2" name="prefs" value="notifications">Send me notifications</input><br>
+<input type="checkbox" id="pref3" name="prefs" value="good price">Send me a good price </input><br>
+           <input type="checkbox" name=agree value="yes"> i agree <br>  
+           
+             
+           <input type=submit>
+           
+        
+     
+    
+        
+    
+        </form>
+        
+        
+    </body>
+</html>
